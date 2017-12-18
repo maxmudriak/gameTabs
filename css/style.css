@@ -552,7 +552,7 @@ button,
   margin: 0 auto; }
   .ba-card__tabs {
     margin: 0;
-    padding: 20px 40px 0 40px;
+    padding: 28px 36px 0 50px;
     list-style: none;
     background: #2b3040;
     display: -webkit-box;
@@ -564,7 +564,7 @@ button,
     .ba-card__tabs-item {
       display: inline-block;
       text-transform: uppercase;
-      padding: 35px 10px 20px;
+      padding: 35px 29px 28px;
       position: relative;
       color: #b7bacd;
       font-size: 16px;
@@ -574,10 +574,12 @@ button,
         border-bottom: 2px solid #ffffff; }
         .ba-card__tabs-item.active svg {
           fill: #fff; }
+      .ba-card__tabs-item:hover {
+        border-bottom: 2px solid #ffffff; }
     .ba-card__tabs-svg {
       position: absolute;
       top: 0;
-      right: 26%;
+      right: 50px;
       fill: #b7bacd; }
 
 .ba-card-element {

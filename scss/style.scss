@@ -55,7 +55,7 @@ button,
   margin: 0 auto;
   &__tabs {
     margin: 0;
-    padding: 20px 40px 0 40px;
+    padding: 28px 36px 0 50px;
     list-style: none;
     background: #2b3040;
     display: flex;
@@ -63,7 +63,7 @@ button,
     &-item {
       display: inline-block;
       text-transform: uppercase;
-      padding: 35px 10px 20px;
+      padding: 35px 29px 28px;
       position: relative;
       color:  $secondary-color;
       font-size: 16px;
@@ -74,13 +74,15 @@ button,
         & svg {
           fill: #fff;
         }
-
+      }
+      &:hover {
+        border-bottom: 2px solid #ffffff;
       }
     }
     &-svg {
       position: absolute;
       top: 0;
-      right: 26%;
+      right: 50px;
       fill: $secondary-color;
     }
   }
